@@ -27,7 +27,7 @@ var searchFunc = function (path, search_id) {
       // get the contents from search data
       console.log(xmlResponse)
       var datas =  xmlResponse.filter((x)=>{
-        return ''.includes(".j") 
+        return !x.url.includes(".j") 
       })
         .map(function (p) {
            
