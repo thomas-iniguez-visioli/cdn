@@ -240,7 +240,8 @@ console.log(CONFIG)
   const localSearch = new LocalSearch({
     path             : CONFIG.path,
     top_n_per_article: CONFIG.localsearch.top_n_per_article,
-    unescape         : CONFIG.localsearch.unescape
+    unescape         : CONFIG.localsearch.unescape,
+    localsearch:
   });
 
   const input = document.querySelector('.search-input');
