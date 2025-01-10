@@ -227,7 +227,9 @@ class LocalSearch {
 }
 document.addEventListener('DOMContentLoaded', () => {
 const CONFIG={
-  path :"/"
+  path :"/",
+  top_n_per_article:1,
+  unescape:true
 }
 console.log(CONFIG)
   if (!CONFIG.path) {
