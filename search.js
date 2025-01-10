@@ -229,7 +229,7 @@ document.addEventListener('DOMContentLoaded', () => {
 const CONFIG={
   path :"/",
   top_n_per_article:1,
-  unescape:true
+  unescape:true,localsearch:{preload:false,trigger:'auto'}
 }
 console.log(CONFIG)
   if (!CONFIG.path) {
@@ -241,7 +241,7 @@ console.log(CONFIG)
     path             : CONFIG.path,
     top_n_per_article: CONFIG.localsearch.top_n_per_article,
     unescape         : CONFIG.localsearch.unescape,
-    localsearch:{preload:false,trigger:'auto'}
+    
   });
 
   const input = document.querySelector('.search-input');
