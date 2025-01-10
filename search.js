@@ -249,6 +249,7 @@ console.log(CONFIG)
   const inputEventFunction = () => {
     if (!localSearch.isfetched) return;
     const searchText = input.value.trim().toLowerCase();
+    consol
     const keywords = searchText.split(/[-\s]+/);
     const container = document.querySelector('.search-result-container');
     let resultItems = [];
