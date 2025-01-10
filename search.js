@@ -227,7 +227,7 @@ class LocalSearch {
 }
 document.addEventListener('DOMContentLoaded', () => {
 const CONFIG={
-  path :"/",
+  path :"/search.json",
   top_n_per_article:1,
   unescape:true,localsearch:{preload:false,trigger:'auto'}
 }
