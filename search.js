@@ -226,7 +226,9 @@ class LocalSearch {
   }
 }
 document.addEventListener('DOMContentLoaded', () => {
-CONST CONFIG={}
+const CONFIG={
+  path :"/"
+}
 console.log(CONFIG)
   if (!CONFIG.path) {
     // Search DB path
