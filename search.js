@@ -241,7 +241,7 @@ console.log(CONFIG)
     path             : CONFIG.path,
     top_n_per_article: CONFIG.localsearch.top_n_per_article,
     unescape         : CONFIG.localsearch.unescape,
-    localsearch:{preload:false,}
+    localsearch:{preload:false,trigger:'auto'}
   });
 
   const input = document.querySelector('.search-input');
