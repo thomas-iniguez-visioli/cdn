@@ -229,7 +229,7 @@ document.addEventListener('DOMContentLoaded', () => {
 const CONFIG={
   path :"/blog-cine/search.json",
   top_n_per_article:1,
-  unescape:true,localsearch:{preload:false,trigger:'auto'}
+  unescape:true,localsearch:{preload:true,trigger:'auto'}
 }
 console.log(CONFIG)
   if (!CONFIG.path) {
