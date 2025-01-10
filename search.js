@@ -226,6 +226,8 @@ class LocalSearch {
   }
 }
 document.addEventListener('DOMContentLoaded', () => {
+CONST CONFIG={}
+console.log(CONFIG)
   if (!CONFIG.path) {
     // Search DB path
     console.warn('`hexo-generator-searchdb` plugin is not installed!');
